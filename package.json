@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Restful CRUD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.14.0",
+    "mysql2": "^2.3.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "openssl-self-signed-certificate": "^1.1.6",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoBlanco/restfull-server.git"
+  },
+  "author": "\u0016Willem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoBlanco/restfull-server/issues"
+  },
+  "homepage": "https://github.com/GuillermoBlanco/restfull-server#readme"
+}

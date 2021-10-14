@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS categories; USE categories; CREATE TABLE IF NOT EXISTS categories;
